@@ -20,25 +20,25 @@ end
 fourth_student_by_index
 
 def last_student_by_index
-  puts student_names[5]
+  puts STUDENT_NAMES[5]
 end
 
 last_student_by_index
 
 def first_student_by_method
-  puts student_names.first
+  puts STUDENT_NAMES.first
 end
 
 first_student_by_method
 
 def last_student_by_method
-  puts student_names.last
+  puts STUDENT_NAMES.last
 end
 
 last_student_by_method
 
 def first_second_and_third_students
-  puts student_names[0...3]
+  puts STUDENT_NAMES[0...3]
 end
 
 first_second_and_third_students
