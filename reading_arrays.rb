@@ -13,11 +13,11 @@ end
 
 puts first_student_by_index
 
-# def fourth_student_by_index
-#   puts student_names[3]
-# end
+def fourth_student_by_index
+  puts student_names[3]
+end
 
-# fourth_student_by_index
+fourth_student_by_index
 
 # def last_student_by_index
 #   puts student_names[5]
